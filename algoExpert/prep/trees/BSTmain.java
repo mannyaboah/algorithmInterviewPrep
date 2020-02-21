@@ -1,4 +1,4 @@
-package com.algoExpert.prep.trees;
+package trees;
 
 public class BSTmain {
 

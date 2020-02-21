@@ -1,4 +1,4 @@
-package com.algoExpert.prep.graphs;
+package graphs;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
