@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VWtest<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "VWtest",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RiverLengthProblem<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "graphs.RiverLengthProblem",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Productsum<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "recursion.Productsum",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "searching.BinarySearch",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeLargest<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "searching.ThreeLargest",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BSTmain<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "trees.BSTmain",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MatchingSocks<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "warmup.MatchingSocks",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MountainAndValleys<algorithmInterviewPrep_1195b6d4>",
+            "request": "launch",
+            "mainClass": "warmup.MountainAndValleys",
+            "projectName": "algorithmInterviewPrep_1195b6d4"
+        }
+    ]
+}

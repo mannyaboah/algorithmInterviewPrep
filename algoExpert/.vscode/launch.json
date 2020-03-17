@@ -1,0 +1,81 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "strings.LongestPalindromicSubstring",
+            "projectName": "algoExpert_e4a39878",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CeasaerCypherEncryptor",
+            "request": "launch",
+            "mainClass": "strings.CeasaerCypherEncryptor",
+            "projectName": "algoExpert_e4a39878",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EndOfList<algoExpert_e4a39878>",
+            "request": "launch",
+            "mainClass": "arrays.EndOfList",
+            "projectName": "algoExpert_e4a39878"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SmallestDifference<algoExpert_e4a39878>",
+            "request": "launch",
+            "mainClass": "arrays.SmallestDifference",
+            "projectName": "algoExpert_e4a39878"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RiverLengthProblem<algoExpert_e4a39878>",
+            "request": "launch",
+            "mainClass": "graphs.RiverLengthProblem",
+            "projectName": "algoExpert_e4a39878"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Productsum<algoExpert_e4a39878>",
+            "request": "launch",
+            "mainClass": "recursion.Productsum",
+            "projectName": "algoExpert_e4a39878"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<algoExpert_e4a39878>",
+            "request": "launch",
+            "mainClass": "searching.BinarySearch",
+            "projectName": "algoExpert_e4a39878"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeLargest<algoExpert_e4a39878>",
+            "request": "launch",
+            "mainClass": "searching.ThreeLargest",
+            "projectName": "algoExpert_e4a39878"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BSTmain<algoExpert_e4a39878>",
+            "request": "launch",
+            "mainClass": "trees.BSTmain",
+            "projectName": "algoExpert_e4a39878",
+            "console": "internalConsole"
+        }
+    ]
+}

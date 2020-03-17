@@ -1,0 +1,66 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EndOfList",
+            "request": "launch",
+            "mainClass": "arrays.EndOfList",
+            "projectName": "prep_b96be564",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SmallestDifference<prep_b96be564>",
+            "request": "launch",
+            "mainClass": "arrays.SmallestDifference",
+            "projectName": "prep_b96be564",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RiverLengthProblem<prep_b96be564>",
+            "request": "launch",
+            "mainClass": "graphs.RiverLengthProblem",
+            "projectName": "prep_b96be564"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Productsum<prep_b96be564>",
+            "request": "launch",
+            "mainClass": "recursion.Productsum",
+            "projectName": "prep_b96be564"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<prep_b96be564>",
+            "request": "launch",
+            "mainClass": "searching.BinarySearch",
+            "projectName": "prep_b96be564"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeLargest<prep_b96be564>",
+            "request": "launch",
+            "mainClass": "searching.ThreeLargest",
+            "projectName": "prep_b96be564"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BSTmain<prep_b96be564>",
+            "request": "launch",
+            "mainClass": "trees.BSTmain",
+            "projectName": "prep_b96be564"
+        }
+    ]
+}
