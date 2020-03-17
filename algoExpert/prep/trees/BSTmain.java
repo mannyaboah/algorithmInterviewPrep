@@ -14,8 +14,8 @@ public class BSTmain {
 		bst.right.left = new BST(13);
 		bst.right.right = new BST(22);
 		
-		int closestMax = findClosestValueInBst(bst, 12);
-		System.out.println(closestMax);
+		//int closestMax = findClosestValueInBst(bst, 12);
+		System.out.println("test");
 
 	}
 
