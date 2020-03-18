@@ -10,7 +10,7 @@ package strings;
 class LongestPalindromicSubstring {
 
     public static void main(String[] args) {
-        String test = "abaxyzzyxf";
+        String test = "asghkrjklabaxyzzyxfwfhjhjvbsgel";
 
         long start = System.nanoTime();
         String result = longestPalindromicSubstringII(test);
@@ -20,11 +20,36 @@ class LongestPalindromicSubstring {
         
         System.out.println("longest palindrome for my method is: " + result + "\nRan in : " + durationInNano + " nano seconds");
 
+        long startII = System.nanoTime();
+        String resultII = longestPalindromicSubstring(test);
+        long endII = System.nanoTime();
+
+        long durationInNanoII = (endII - startII);
+
+        System.out.println("longest palindrome for AlgoExpert method is: " + resultII + "\nRan in : " + durationInNanoII + " nano seconds");
+
     }
 
     public static String longestPalindromicSubstring(String str) {
-        // Write your code here.
-        return "";
+        int[] currentLongest = {0, 1};
+        for(int i=0; i < str.length(); i++){
+            int[] odd = getLongestPalindrome(str, i - 1, i + 1);
+            int[] even = getLongestPalindrome(str, i - 1, i);
+            int[] longest = odd[1] - odd[0] > even[1] - even[0] ? odd : even;
+            
+            currentLongest = currentLongest[1] - currentLongest[0] > longest[1] - longest[0] ? currentLongest : longest;
+        }
+        
+        return str.substring(currentLongest[0], currentLongest[1]);
+    }
+
+    private static int[] getLongestPalindrome(String str, int leftidx, int rightidx) {
+        while(leftidx >= 0 && rightidx < str.length()){
+            if(str.charAt(leftidx) != str.charAt(rightidx)) break;
+            leftidx --;
+            rightidx ++;
+        }
+        return new int[] {leftidx + 1, rightidx};
     }
 
     public static String longestPalindromicSubstringII(String str) {
