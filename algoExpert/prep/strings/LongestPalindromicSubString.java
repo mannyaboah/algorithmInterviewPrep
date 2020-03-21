@@ -86,4 +86,7 @@ class LongestPalindromicSubstring {
         return isPalindrome == true ? str : "";
     }
 
+    // n^3 solution
+    
+
 }
