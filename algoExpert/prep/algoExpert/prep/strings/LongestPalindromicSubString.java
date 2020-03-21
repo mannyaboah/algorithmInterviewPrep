@@ -1,4 +1,4 @@
-package strings;
+package  algoExpert.prep.strings;
 
 /**
  * Write a function that, given a string, returns its longest palindromic

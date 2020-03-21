@@ -1,4 +1,4 @@
-package strings;
+package  algoExpert.prep.strings;
 
 class CeasaerCypherEncryptor {
     public static void main(String[] args) {

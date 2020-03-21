@@ -8,6 +8,14 @@
             "type": "java",
             "name": "CodeLens (Launch) - SingleCycleCheck",
             "request": "launch",
+            "mainClass": "algoExpert.prep.graphs.SingleCycleCheck",
+            "projectName": "algoExpert_e4a39878",
+            "console": "internalConsole"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingleCycleCheck",
+            "request": "launch",
             "mainClass": "graphs.SingleCycleCheck",
             "projectName": "algoExpert_e4a39878",
             "console": "internalConsole"

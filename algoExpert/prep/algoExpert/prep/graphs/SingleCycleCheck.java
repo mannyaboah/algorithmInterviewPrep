@@ -1,4 +1,4 @@
-package graphs;
+package  algoExpert.prep.graphs;
 
 class SingleCycleCheck {
 

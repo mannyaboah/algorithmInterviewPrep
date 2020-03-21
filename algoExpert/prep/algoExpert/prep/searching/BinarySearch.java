@@ -1,4 +1,4 @@
-package searching;
+package  algoExpert.prep.searching;
 
 class BinarySearch {
 
