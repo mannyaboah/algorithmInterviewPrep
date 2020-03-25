@@ -1,4 +1,4 @@
-package algoExpert.prep.arrays;
+package arrays;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package  algoExpert.prep.trees;
+package trees;
 
 public class BST {
 

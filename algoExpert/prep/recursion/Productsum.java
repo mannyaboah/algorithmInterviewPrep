@@ -1,4 +1,4 @@
-package  algoExpert.prep.recursion;
+package  recursion;
 
 import java.util.ArrayList;
 import java.util.List;
