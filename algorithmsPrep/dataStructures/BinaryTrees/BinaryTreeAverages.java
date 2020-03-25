@@ -51,7 +51,6 @@ class BinaryTreeAverages {
         double sum = 0;
 
         while (!q.isEmpty()) {
-
             Queue<Node> temp = new ArrayDeque<Node>();
             count = 0;
             sum = 0;
