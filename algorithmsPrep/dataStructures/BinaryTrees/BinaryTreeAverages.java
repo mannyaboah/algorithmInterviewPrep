@@ -47,8 +47,8 @@ class BinaryTreeAverages {
         q.add(root);
 
         List<Double> averages = new ArrayList<Double>();
-        int count = 0;
-        int sum = 0;
+        double count = 0;
+        double sum = 0;
 
         while (!q.isEmpty()) {
 
@@ -65,7 +65,7 @@ class BinaryTreeAverages {
                     temp.add(n.right);
             }
             q = temp;
-            averages.add((sum * 1.0) / count);
+            averages.add(sum / count);
         }
 
         return averages;
