@@ -27,6 +27,7 @@ class Nthfibonacci {
         endTime = System.nanoTime();
         elapsed = endTime - startTime;
         System.out.println("Dynamic Programming method took: " + elapsed + " nano seconds to run\n");
+
     }
 
     // Memoization
@@ -70,4 +71,25 @@ class Nthfibonacci {
 
         return getNthfibRecurr(n - 1) + getNthfibRecurr(n - 2);
     }
+
+    public static int getFib(int n){
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1, 0);
+        map.put(2, 1);
+        
+        return getFibber(map, n);
+    }
+
+    private static int getFibber(HashMap<Integer, Integer> map, int n) {
+        if(map.containsKey(n)){
+            return map.get(n);
+        }else{
+            map.put(n, getFibber(map, n - 1) + getFibber(map, n - 2));
+        }
+        
+        return map.get(n);
+    }
+
+
 }
